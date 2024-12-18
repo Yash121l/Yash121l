@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Club portal of our University<br>👯 I’m looking to collaborate on new technologies <br>🤝 I’m looking for help with solving real life problems<br>🌱 I’m currently learning Backend [Node JS]<br>💬 I love to learn and build scalable and optimised systems
+🔭 I’m currently working on ERP System of University<br>👯 I’m looking to collaborate on new technologies <br>🤝 I’m looking for help with solving real life problems<br>💬 I love to learn and build scalable and optimised systems
 
 
 ## 🌐 Socials:
