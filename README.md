@@ -101,7 +101,7 @@ me.say_hi()
 
 <div align="center">
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Yash121l?theme=dark&font=Fira+Code&ext=heatmap)](https://leetcode.com/Yash121l/)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/Yash121l?theme=dark&font=Fira+Code&ext=heatmap)](https://leetcode.com/yashlunawat2005/)
 
 > **"An algorithm a day keeps the bugs away"** 🐛❌
 
