@@ -72,11 +72,12 @@ class Yash:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Yash121l&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&count_private=true&include_all_commits=true&card_width=420" height="165" />&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash121l&layout=compact&theme=github_dark&hide_border=true&langs_count=6&card_width=260" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=Yash121l&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&count_private=true" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash121l&layout=compact&theme=github_dark&hide_border=true&langs_count=6" width="41%" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=Yash121l&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=700" height="165" />
+<img src="https://streak-stats.demolab.com?user=Yash121l&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="60%" />
 
 </div>
 
@@ -88,7 +89,7 @@ class Yash:
 
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/yashlunawat2005?theme=dark&font=Fira+Code&ext=heatmap&border=0&radius=10&width=700" />
+<img src="https://leetcard.jacoblin.cool/yashlunawat2005?theme=dark&font=Fira+Code&ext=heatmap&border=0&radius=10" width="70%" />
 
 </div>
 
@@ -125,11 +126,7 @@ class Yash:
 ---
 
 <div align="center">
-
 <sub>Delhi · Rishihood University · Open to Work · <a href="https://yashlunawat.com">yashlunawat.com</a></sub>
-
-<br/>
-
+<br/><br/>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" width="100%" />
-
 </div>
