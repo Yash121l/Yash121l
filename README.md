@@ -1,43 +1,52 @@
 <div align="center">
 
-```
-██╗   ██╗ █████╗ ███████╗██╗  ██╗
-╚██╗ ██╔╝██╔══██╗██╔════╝██║  ██║
- ╚████╔╝ ███████║███████╗███████║
-  ╚██╔╝  ██╔══██║╚════██║██╔══██║
-   ██║   ██║  ██║███████║██║  ██║
-   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
-```
+<!-- CAPSULE RENDER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00b4d8,100:0077b6&height=200&section=header&text=Yash%20Lunawat&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Problem%20Solver%20%7C%20Builder&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
-# `while (!solved) { keepCoding(); }` 🧠⚡
+<!-- TYPING SVG -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&random=false&width=600&lines=while+(!solved)+%7B+keepCoding();+%7D;First%2C+solve+the+problem.+Then%2C+write+the+code.;Full-Stack+Dev+%2B+DSA+Grinder+%F0%9F%9A%80;Open+for+Collabs+%7C+Internships+%7C+Cool+Ideas" alt="Typing SVG" />
+</a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hey+there%2C+I'm+Yash+%F0%9F%91%8B;Full-Stack+Problem+Solver+%F0%9F%94%A7;Code+%3E+Coffee+%3E+Repeat+%E2%98%95;Turning+ideas+into+reality%2C+one+commit+at+a+time)](https://git.io/typing-svg)
+<br/>
 
-<img src="https://komarev.com/ghpvc/?username=Yash121l&label=Profile+Views&color=00d9ff&style=flat-square" alt="profile views" />
-&nbsp;
-<img src="https://img.shields.io/github/followers/Yash121l?label=Followers&style=flat-square&color=00d9ff" alt="followers" />
-&nbsp;
-<img alt="stars" src="https://img.shields.io/github/stars/Yash121l?label=Stars&style=flat-square&color=00d9ff"/>
+<!-- SOCIAL BADGES -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yash-lunawat-)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/yashlunawat2005/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00B4D8?style=for-the-badge&logo=vercel&logoColor=white)](https://yashlunawat.com)
+[![GitHub followers](https://img.shields.io/github/followers/Yash121l?label=Follow&style=for-the-badge&color=00b4d8&labelColor=0d1117)](https://github.com/Yash121l)
+[![Profile Views](https://komarev.com/ghpvc/?username=Yash121l&label=Profile+Views&color=00b4d8&style=for-the-badge)](https://github.com/Yash121l)
 
 </div>
 
 ---
 
-## 🧬 `whoami`
+## `whoami` 🛸
 
 ```python
 class Yash:
     def __init__(self):
-        self.name         = "Yash"
-        self.username     = "Yash121l"
-        self.location     = "India 🇮🇳"
-        self.role         = "Full-Stack Developer & Problem Solver"
-        self.philosophy   = "First, solve the problem. Then, write the code."
-        self.currently    = ["Building cool stuff 🚀", "Grinding DSA 💡", "Learning system design 🧩"]
-        self.open_to      = ["Collaborations", "Open Source", "Internships", "Cool Ideas"]
+        self.name        = "Yash Lunawat"
+        self.username    = "Yash121l"
+        self.location    = "Delhi, India 🇮🇳"
+        self.university  = "Rishihood University"
+        self.role        = "Full-Stack Developer & Problem Solver"
+        self.philosophy  = "First, solve the problem. Then, write the code."
+
+    @property
+    def currently(self):
+        return [
+            "🚀 Building cool full-stack products",
+            "💡 Grinding DSA — one problem at a time",
+            "📐 Learning System Design (the real way)",
+        ]
+
+    @property
+    def open_to(self):
+        return ["Collaborations", "Open Source", "Internships", "Cool Ideas 💡"]
 
     def say_hi(self):
-        print("Thanks for dropping by! Let's build something awesome together. 🤝")
+        print("Thanks for dropping by! Let's build something great together.")
 
 me = Yash()
 me.say_hi()
@@ -45,39 +54,41 @@ me.say_hi()
 
 ---
 
-## ⚡ Tech Arsenal
+## 🛠 Tech Stack
 
 <div align="center">
 
-### 🖥️ Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+**Languages**
 
-### 🌐 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+[![Python](https://skillicons.dev/icons?i=python)](https://python.org)
+[![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TypeScript](https://skillicons.dev/icons?i=ts)](https://typescriptlang.org)
+[![C++](https://skillicons.dev/icons?i=cpp)](https://isocpp.org)
+[![Java](https://skillicons.dev/icons?i=java)](https://java.com)
 
-### 🛠️ Backend & DB
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+**Frontend**
 
-### ☁️ DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+[![React](https://skillicons.dev/icons?i=react)](https://reactjs.org)
+[![Next.js](https://skillicons.dev/icons?i=nextjs)](https://nextjs.org)
+[![TailwindCSS](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com)
+[![HTML](https://skillicons.dev/icons?i=html)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+**Backend & Database**
+
+[![Node.js](https://skillicons.dev/icons?i=nodejs)](https://nodejs.org)
+[![Express](https://skillicons.dev/icons?i=express)](https://expressjs.com)
+[![MongoDB](https://skillicons.dev/icons?i=mongodb)](https://mongodb.com)
+[![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://postgresql.org)
+[![Firebase](https://skillicons.dev/icons?i=firebase)](https://firebase.google.com)
+
+**Tools & Platforms**
+
+[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com)
+[![GitHub](https://skillicons.dev/icons?i=github)](https://github.com)
+[![Docker](https://skillicons.dev/icons?i=docker)](https://docker.com)
+[![VS Code](https://skillicons.dev/icons?i=vscode)](https://code.visualstudio.com)
+[![Linux](https://skillicons.dev/icons?i=linux)](https://linux.org)
 
 </div>
 
@@ -86,39 +97,20 @@ me.say_hi()
 ## 📊 GitHub Stats
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Yash121l&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&rank_icon=github&count_private=true" height="180" alt="Yash's GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash121l&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&langs_count=8" height="180" alt="Top Languages"/>
+</div>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Yash121l&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Yash121l&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash121l&theme=tokyonight&hide_border=true&layout=compact&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
-<img width="49%" src="https://github-profile-trophy.vercel.app/?username=Yash121l&theme=tokyonight&no-frame=true&column=4&margin-w=5&margin-h=5" />
-
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Yash121l&theme=tokyonight&hide_border=true&background=0D1117&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8" width="70%" alt="GitHub Streak"/>
 </div>
 
 ---
 
-## 🧩 Problem Solving Stats
+## ⚡ LeetCode Stats
 
 <div align="center">
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/yashlunawat2005?theme=dark&font=Fira+Code&ext=heatmap)](https://leetcode.com/yashlunawat2005/)
-
-> **"An algorithm a day keeps the bugs away"** 🐛❌
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-| 🔥 Project | 📝 Description | 🛠️ Stack | ⭐ |
-|:---:|:---:|:---:|:---:|
-| 🚧 **Project Alpha** | *Add your best project here* | React · Node · MongoDB | [![Stars](https://img.shields.io/github/stars/Yash121l/your-repo?style=flat-square&color=00d9ff)](https://github.com/Yash121l) |
-| 🔬 **Project Beta** | *Add your second project here* | Python · FastAPI · PostgreSQL | [![Stars](https://img.shields.io/github/stars/Yash121l/your-repo?style=flat-square&color=00d9ff)](https://github.com/Yash121l) |
-| 🧠 **Project Gamma** | *Add your third project here* | Next.js · Tailwind · Redis | [![Stars](https://img.shields.io/github/stars/Yash121l/your-repo?style=flat-square&color=00d9ff)](https://github.com/Yash121l) |
-
+  <img src="https://leetcard.jacoblin.cool/yashlunawat2005?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=10" width="65%" alt="LeetCode Stats"/>
 </div>
 
 ---
@@ -126,57 +118,68 @@ me.say_hi()
 ## 📈 Contribution Graph
 
 <div align="center">
-
-[![Yash's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Yash121l&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FF6B6B)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yash121l&theme=tokyo-night&bg_color=0d1117&color=00b4d8&line=00b4d8&point=ffffff&area=true&hide_border=true" width="95%" alt="Contribution Graph"/>
 </div>
 
 ---
 
-## 🧠 Dev Philosophy
+## 🐍 Contribution Snake
 
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yash121l/Yash121l/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yash121l/Yash121l/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Yash121l/Yash121l/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+> 💡 **To enable the snake animation**, add this GitHub Action to `.github/workflows/snake.yml` in your profile repo:
+> ```yaml
+> name: Generate Snake
+> on:
+>   schedule: [{ cron: "0 0 * * *" }]
+>   workflow_dispatch:
+> jobs:
+>   snake:
+>     runs-on: ubuntu-latest
+>     steps:
+>       - uses: Platane/snk@v3
+>         with:
+>           github_user_name: Yash121l
+>           outputs: |
+>             dist/github-contribution-grid-snake.svg
+>             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+>       - uses: crazy-max/ghaction-github-pages@v3.1.0
+>         with:
+>           target_branch: output
+>           build_dir: dist
+>         env:
+>           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+> ```
+
+---
+
+## 🎯 Current Focus
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│   "First, solve the problem.                            │
-│    Then, write the code." — John Johnson                │
-│                                                         │
-│   "Any fool can write code that a computer can          │
-│    understand. Good programmers write code that         │
-│    humans can understand." — Martin Fowler              │
-│                                                         │
-│   "Make it work, make it right, make it fast."          │
-│    — Kent Beck                                          │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
+🔭 Working on   →  Full-Stack projects with real-world impact
+🌱 Learning     →  System Design, DSA, Cloud (AWS/GCP basics)
+🤝 Looking for  →  Internships, Open Source contributions
+💬 Ask me about →  React, Node.js, Problem Solving, DSA
 ```
 
-</div>
-
 ---
 
-## 🎯 2025 Goals
-
-- [x] 🔥 Build 3 full-stack projects from scratch
-- [ ] 🧩 Solve 500+ LeetCode problems
-- [ ] 🌐 Contribute to 5+ open-source projects
-- [ ] 📚 Master System Design fundamentals
-- [ ] ☁️ Get AWS/GCP certified
-- [ ] 🚀 Ship a product that real users use
-
----
-
-## 📡 Connect With Me
+## 📫 Let's Connect
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Yash121l)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Yash121l)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://yash121l.github.io)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/Yash121l)
+| Platform | Link |
+|:---:|:---:|
+| 🌐 **Portfolio** | [yashlunawat.com](https://yashlunawat.com) |
+| 💼 **LinkedIn** | [linkedin.com/in/yash-lunawat-](https://linkedin.com/in/yash-lunawat-) |
+| ⚡ **LeetCode** | [yashlunawat2005](https://leetcode.com/u/yashlunawat2005/) |
+| 🐙 **GitHub** | [@Yash121l](https://github.com/Yash121l) |
 
 </div>
 
@@ -184,15 +187,21 @@ me.say_hi()
 
 <div align="center">
 
-### 💡 Random Dev Quote
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<!-- QUOTE -->
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" width="75%" alt="Random Dev Quote"/>
 
----
+<br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&text=Thanks+for+visiting!&fontSize=24&fontColor=00D9FF&animation=twinkling" />
-
-**Made with ❤️ + ☕ + 🐛(fixed) by Yash**
-
-`// TODO: Sleep more. Never actually do it.`
+<!-- FOOTER WAVE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077b6,100:00b4d8&height=100&section=footer" width="100%"/>
 
 </div>
+
+<!--
+██╗   ██╗ █████╗ ███████╗██╗  ██╗
+╚██╗ ██╔╝██╔══██╗██╔════╝██║  ██║
+ ╚████╔╝ ███████║███████╗███████║
+  ╚██╔╝  ██╔══██║╚════██║██╔══██║
+   ██║   ██║  ██║███████║██║  ██║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+-->
