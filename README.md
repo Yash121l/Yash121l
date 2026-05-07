@@ -1,25 +1,25 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=160&section=header&text=Yash%20Lunawat&fontSize=48&fontColor=fff&fontAlignY=38&desc=Full-Stack%20Developer%20·%20Problem%20Solver%20·%20Builder&descAlignY=58&descSize=15&animation=twinkling" width="100%" />
-
 <br/>
 
-<img src="https://raw.githubusercontent.com/Yash121l/Yash121l/main/image.png" width="120" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1200&color=58A6FF&center=true&vCenter=true&width=520&lines=while+(!solved)+%7B+keepCoding();+%7D;First+solve+the+problem.+Then+write+the+code.;Full-Stack+Dev+%E2%80%A2+DSA+Grinder+%E2%80%A2+Open+Source;Delhi%2C+India+%F0%9F%87%AE%F0%9F%87%B3" />
+<img src="https://raw.githubusercontent.com/Yash121l/Yash121l/main/image.png" width="200" />
 
 <br/><br/>
+
+# Yash Lunawat
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1200&color=58A6FF&center=true&vCenter=true&width=520&lines=Full-Stack+Developer+%C2%B7+Problem+Solver+%C2%B7+Builder;while+(!solved)+%7B+keepCoding();+%7D;Open+to+Internships+%C2%B7+Collabs+%C2%B7+Cool+Ideas" />
+
+<br/>
 
 [![Portfolio](https://img.shields.io/badge/yashlunawat.com-0969da?style=flat-square&logo=vercel&logoColor=white)](https://yashlunawat.com)&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yash-lunawat-)&nbsp;
 [![LeetCode](https://img.shields.io/badge/LeetCode-ffa116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/yashlunawat2005/)&nbsp;
 [![Views](https://komarev.com/ghpvc/?username=Yash121l&style=flat-square&color=58a6ff&label=views)](https://github.com/Yash121l)
 
-</div>
-
 <br/>
+
+</div>
 
 ---
 
@@ -68,16 +68,11 @@ class Yash:
 
 ---
 
-### `$ git stats`
+### `$ git streak`
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Yash121l&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&count_private=true" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash121l&layout=compact&theme=github_dark&hide_border=true&langs_count=6" width="41%" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Yash121l&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="60%" />
+<img src="https://streak-stats.demolab.com?user=Yash121l&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="70%" />
 
 </div>
 
@@ -127,6 +122,4 @@ class Yash:
 
 <div align="center">
 <sub>Delhi · Rishihood University · Open to Work · <a href="https://yashlunawat.com">yashlunawat.com</a></sub>
-<br/><br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" width="100%" />
 </div>
