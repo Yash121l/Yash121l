@@ -29,11 +29,22 @@
 class Yash:
     name       = "Yash Lunawat"
     location   = "Delhi, India 🇮🇳"
-    university = "Rishihood University"
-    role       = "Full-Stack Developer & Problem Solver"
-    philosophy = "First, solve the problem. Then, write the code."
-    currently  = ["Building full-stack products", "Grinding DSA", "Learning System Design"]
-    open_to    = ["Internships", "Open Source", "Collaborations", "Cool Ideas"]
+    university = "Rishihood University — B.Tech AI (2023–2027)"
+    role       = "AI-Native Engineer & Product Builder"
+    philosophy = "Don't just use AI. Build with it. Ship it. Repeat."
+    currently  = [
+        "Building AI-native products on Claude & LLM APIs",
+        "Shipping GhostPilot, Vessel, Babel Room, DriftCheck",
+        "Exploring agents, prompt engineering & MCP",
+    ]
+    stack      = {
+        "ai"      : ["Claude API", "OpenAI", "Groq", "Ollama", "LangChain", "RAG", "Agents"],
+        "langs"   : ["TypeScript", "Python", "Go", "JavaScript"],
+        "backend" : ["Node.js", "Express", "SQLite", "Drizzle ORM", "Cloudflare Workers"],
+        "infra"   : ["Docker", "Linux", "Caddy", "GitHub Actions", "Cloudflare"],
+    }
+    open_to    = ["AI Internships", "Open Source", "Collaborations", "Shipping Cool Ideas"]
+    vibe       = "Turn ideas → working AI products, fast."
 ```
 
 <br/>
