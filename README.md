@@ -91,18 +91,6 @@ class Yash:
 
 ---
 
-### `$ leetcode --stats`
-
-<div align="center">
-
-<img src="https://leetcard.jacoblin.cool/yashlunawat2005?theme=dark&font=Fira+Code&ext=heatmap&border=0&radius=10" width="70%" />
-
-</div>
-
-<br/>
-
----
-
 ### `$ git log --graph`
 
 <div align="center">
