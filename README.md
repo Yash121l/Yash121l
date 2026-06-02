@@ -122,3 +122,4 @@ class Yash:
 <div align="center">
 <sub>Delhi · Rishihood University · Open to Work · <a href="https://yashlunawat.com">yashlunawat.com</a></sub>
 </div>
+
