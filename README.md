@@ -2,13 +2,13 @@
 
 <br/>
 
-[![My GitFut card](https://gitfut.com/Yash121l.png)](https://gitfut.com/Yash121l)
+[<img src="https://gitfut.com/Yash121l.png" alt="My GitFut card" height="180" />](https://gitfut.com/Yash121l)
 
 <br/><br/>
 
 # Yash Lunawat
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1200&color=58A6FF&center=true&vCenter=true&width=520&lines=Full-Stack+Developer+%C2%B7+Problem+Solver+%C2%B7+Builder;while+(!solved)+%7B+keepCoding();+%7D;Open+to+Internships+%C2%B7+Collabs+%C2%B7+Cool+Ideas" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1200&color=58A6FF&center=true&vCenter=true&width=520&lines=Full-Stack+Developer+%C2%B7+Problem+Solver+%C2%B7+Builder;wh[...]"
 
 <br/>
 
