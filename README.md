@@ -2,7 +2,7 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Yash121l/Yash121l/main/image.png" width="200" />
+[![My GitFut card](https://gitfut.com/Yash121l.png)](https://gitfut.com/Yash121l)
 
 <br/><br/>
 
