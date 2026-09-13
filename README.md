@@ -1,6 +1,6 @@
 # Yash Lunawat
 
-I build software at [RTP Global](https://rtp.vc), an early-stage venture fund, from Bengaluru. B.Tech in AI at Rishihood University, class of 2027. Most of what I write is TypeScript and Swift, with Python where it fits.
+I build thesis & software at [RTP Global](https://rtp.vc), an early-stage venture fund, from Bengaluru. B.Tech in AI at Rishihood University, class of 2027. Most of what I write is TypeScript and Swift, with Python where it fits.
 
 Site: [yashlunawat.com](https://yashlunawat.com). LinkedIn: [yash-lunawat-](https://linkedin.com/in/yash-lunawat-).
 
