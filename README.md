@@ -39,7 +39,7 @@ Pull requests to projects I use. This list updates daily.
 - **[yardstick](https://github.com/Yash121l/yardstick)**. Local LLM eval harness: which model for which pipeline, at what cost, with which API quirks.
 - **[GhostPilot](https://github.com/Yash121l/GhostPilot)**. Local-first, bring-your-own-key desktop app for AI-assisted social publishing.
 - **[Forge](https://github.com/Yash121l/Forge)**. Self-hosted Git platform for small groups, in Go.
-- **[Vessel](https://github.com/Yash121l/Vessel)**. Go.
+- **[Vessel](https://github.com/Yash121l/Vessel)**. Self-hosted app deployment manager for a Linux VPS: one Go binary that sets up Docker, nginx and the firewall, then deploys apps from templates with generated Compose files and TLS routes.
 
 At work I build internal tooling for the fund: deal sourcing, portfolio intelligence, warm-intro graphs, and the agents that run them. Those repos are private.
 
