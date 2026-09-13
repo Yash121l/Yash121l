@@ -1,124 +1,50 @@
-<div align="center">
-
-<br/>
-
-[<img src="https://gitfut.com/Yash121l.png" alt="My GitFut card" height="180" />](https://gitfut.com/Yash121l)
-
-<br/><br/>
-
 # Yash Lunawat
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1200&color=58A6FF&center=true&vCenter=true&width=520&lines=Full-Stack+Developer+%C2%B7+Problem+Solver+%C2%B7+Builder;wh[...]"
+I build software at [RTP Global](https://rtp.vc), an early-stage venture fund, from Bengaluru. B.Tech in AI at Rishihood University, class of 2027. Most of what I write is TypeScript and Swift, with Python where it fits.
 
-<br/>
+Site: [yashlunawat.com](https://yashlunawat.com). LinkedIn: [yash-lunawat-](https://linkedin.com/in/yash-lunawat-).
 
-[![Portfolio](https://img.shields.io/badge/yashlunawat.com-0969da?style=flat-square&logo=vercel&logoColor=white)](https://yashlunawat.com)&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yash-lunawat-)&nbsp;
-[![LeetCode](https://img.shields.io/badge/LeetCode-ffa116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/yashlunawat2005/)&nbsp;
-[![Views](https://komarev.com/ghpvc/?username=Yash121l&style=flat-square&color=58a6ff&label=views)](https://github.com/Yash121l)
+## Now
 
-<br/>
+**[canistart](https://github.com/Yash121l/canistart)**. One command that tells you whether a GitHub issue is worth starting on: competing pull requests the issue page does not show, fixes that already landed, the repo's and the org's AI policy quoted sentence by sentence, CLA and DCO gates, merge rate. GO, CAUTION or STOP with exit codes, so it also works as a gate in front of a coding agent. Zero dependencies.
 
-</div>
-
----
-
-### `$ whoami`
-
-```python
-class Yash:
-    name       = "Yash Lunawat"
-    location   = "Delhi, India 🇮🇳"
-    university = "Rishihood University — B.Tech AI (2023–2027)"
-    role       = "AI-Native Engineer & Product Builder"
-    philosophy = "Don't just use AI. Build with it. Ship it. Repeat."
-    currently  = [
-        "Building AI-native products on Claude & LLM APIs",
-        "Shipping GhostPilot, Vessel, Babel Room, DriftCheck",
-        "Exploring agents, prompt engineering & MCP",
-    ]
-    stack      = {
-        "ai"      : ["Claude API", "OpenAI", "Groq", "Ollama", "LangChain", "RAG", "Agents"],
-        "langs"   : ["TypeScript", "Python", "Go", "JavaScript"],
-        "backend" : ["Node.js", "Express", "SQLite", "Drizzle ORM", "Cloudflare Workers"],
-        "infra"   : ["Docker", "Linux", "Caddy", "GitHub Actions", "Cloudflare"],
-    }
-    open_to    = ["AI Internships", "Open Source", "Collaborations", "Shipping Cool Ideas"]
-    vibe       = "Turn ideas → working AI products, fast."
+```
+npx github:Yash121l/canistart https://github.com/owner/repo/issues/123
 ```
 
-<br/>
+I built it after two days of picking issues by hand: of twelve candidates, three were already fixed, two had five or more open PRs, one sat behind an org policy that bans autonomous agents.
 
----
+## Upstream
 
-### `$ ls skills/`
+Pull requests to projects I use. This list updates daily.
 
-<div align="center">
+<!-- upstream:start -->
+| repo | pull request | state |
+| --- | --- | --- |
+| [meriyah/meriyah](https://github.com/meriyah/meriyah) | [refactor: separate the label parent link from label entries](https://github.com/meriyah/meriyah/pull/653) | merged 2026-09-13 |
+| [meriyah/meriyah](https://github.com/meriyah/meriyah) | [refactor: type `Labels` as a chained label set](https://github.com/meriyah/meriyah/pull/652) | merged 2026-09-13 |
+| [meriyah/meriyah](https://github.com/meriyah/meriyah) | [refactor: type callee and class field values in estree](https://github.com/meriyah/meriyah/pull/654) | open |
+| [trpc/trpc](https://github.com/trpc/trpc) | [docs: document WebSockets alongside HTTP, nested routers, and createContext typing](https://github.com/trpc/trpc/pull/7589) | open |
+| [TanStack/table](https://github.com/TanStack/table) | [fix(table-core): guard dev-only process.env reads](https://github.com/TanStack/table/pull/6591) | open |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | [fix(web): keep long commands inside the Add Action dialog](https://github.com/pingdotgg/t3code/pull/11446) | open |
+| [TanStack/table](https://github.com/TanStack/table) | [fix(vue-table): render nothing for an empty string cell](https://github.com/TanStack/table/pull/6590) | open |
+| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | [fix(evals): add a timeout to benchmark dataset downloads](https://github.com/Arize-ai/phoenix/pull/16147) | open |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | [fix(git): route git_add(".") through the validated git CLI path](https://github.com/modelcontextprotocol/servers/pull/4799) | open |
+<!-- upstream:end -->
 
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=js,ts,python,cpp,java&theme=dark&perline=5" />
+## Projects
 
-<br/>
+- **[PortHole](https://github.com/Yash121l/PortHole)**. macOS menu bar app: every listening port, which process owns it, kill it in one click. Swift and SwiftUI.
+- **[Railly](https://github.com/Yash121l/railway)**. Live train tracking for Indian Railways with a Live Activity on the lock screen. Swift app plus a Next.js site.
+- **[yardstick](https://github.com/Yash121l/yardstick)**. Local LLM eval harness: which model for which pipeline, at what cost, with which API quirks.
+- **[GhostPilot](https://github.com/Yash121l/GhostPilot)**. Local-first, bring-your-own-key desktop app for AI-assisted social publishing.
+- **[Forge](https://github.com/Yash121l/Forge)**. Self-hosted Git platform for small groups, in Go.
+- **[Vessel](https://github.com/Yash121l/Vessel)**. Go.
 
-**Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css&theme=dark&perline=5" />
+At work I build internal tooling for the fund: deal sourcing, portfolio intelligence, warm-intro graphs, and the agents that run them. Those repos are private.
 
-<br/>
+## Stack
 
-**Backend & Database**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,firebase&theme=dark&perline=5" />
+TypeScript, Node, Cloudflare Workers, SQLite and D1, Swift and SwiftUI, Python, Go. Claude and the Anthropic API for anything that reasons.
 
-<br/>
-
-**Tools**<br/>
-<img src="https://skillicons.dev/icons?i=git,docker,linux,vscode,github&theme=dark&perline=5" />
-
-</div>
-
-<br/>
-
----
-
-### `$ git streak`
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Yash121l&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="70%" />
-
-</div>
-
-<br/>
-
----
-
-### `$ git log --graph`
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yash121l&theme=github-compact&hide_border=true&area=true&radius=6" width="95%" />
-
-</div>
-
-<br/>
-
----
-
-### `$ snake --contributions`
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Yash121l/Yash121l/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yash121l/Yash121l/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Yash121l/Yash121l/output/github-contribution-grid-snake-dark.svg" width="90%" />
-</picture>
-
-</div>
-
-<br/>
-
----
-
-<div align="center">
-<sub>Delhi · Rishihood University · Open to Work · <a href="https://yashlunawat.com">yashlunawat.com</a></sub>
-</div>
+<img src="https://streak-stats.demolab.com?user=Yash121l&theme=github-dark-blue&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="contribution streak" width="60%" />
