@@ -16,20 +16,10 @@ I built it after two days of picking issues by hand: of twelve candidates, three
 
 ## Upstream
 
-Pull requests to projects I use. This list updates daily.
+Pull requests to projects I use, counted daily.
 
 <!-- upstream:start -->
-| repo | pull request | state |
-| --- | --- | --- |
-| [meriyah/meriyah](https://github.com/meriyah/meriyah) | [refactor: separate the label parent link from label entries](https://github.com/meriyah/meriyah/pull/653) | merged 2026-09-13 |
-| [meriyah/meriyah](https://github.com/meriyah/meriyah) | [refactor: type `Labels` as a chained label set](https://github.com/meriyah/meriyah/pull/652) | merged 2026-09-13 |
-| [meriyah/meriyah](https://github.com/meriyah/meriyah) | [refactor: type callee and class field values in estree](https://github.com/meriyah/meriyah/pull/654) | open |
-| [trpc/trpc](https://github.com/trpc/trpc) | [docs: document WebSockets alongside HTTP, nested routers, and createContext typing](https://github.com/trpc/trpc/pull/7589) | open |
-| [TanStack/table](https://github.com/TanStack/table) | [fix(table-core): guard dev-only process.env reads](https://github.com/TanStack/table/pull/6591) | open |
-| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | [fix(web): keep long commands inside the Add Action dialog](https://github.com/pingdotgg/t3code/pull/11446) | open |
-| [TanStack/table](https://github.com/TanStack/table) | [fix(vue-table): render nothing for an empty string cell](https://github.com/TanStack/table/pull/6590) | open |
-| [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | [fix(evals): add a timeout to benchmark dataset downloads](https://github.com/Arize-ai/phoenix/pull/16147) | open |
-| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | [fix(git): route git_add(".") through the validated git CLI path](https://github.com/modelcontextprotocol/servers/pull/4799) | open |
+2 pull requests merged into [meriyah/meriyah](https://github.com/meriyah/meriyah/pulls?q=is%3Apr+author%3AYash121l+is%3Amerged) (2). 8 open, including first contributions to [trpc/trpc](https://github.com/trpc/trpc/pulls?q=is%3Apr+author%3AYash121l), [TanStack/table](https://github.com/TanStack/table/pulls?q=is%3Apr+author%3AYash121l), [pingdotgg/t3code](https://github.com/pingdotgg/t3code/pulls?q=is%3Apr+author%3AYash121l), [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix/pulls?q=is%3Apr+author%3AYash121l), [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/pulls?q=is%3Apr+author%3AYash121l).
 <!-- upstream:end -->
 
 ## Projects

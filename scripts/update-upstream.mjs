@@ -26,15 +26,26 @@ for (const name of new Set([...merged, ...open].map(repo))) {
   stars.set(name, res.ok ? (await res.json()).stargazers_count : 0);
 }
 const notable = (pr) => stars.get(repo(pr)) >= 100;
-const line = (pr, state) => `| [${repo(pr)}](https://github.com/${repo(pr)}) | [${pr.title.replace(/\|/g, '\\|')}](${pr.html_url}) | ${state} |`;
+const byRepo = new Map();
+for (const pr of merged.filter(notable)) {
+  const name = repo(pr);
+  const entry = byRepo.get(name) ?? { stars: stars.get(name), merged: 0, latest: '' };
+  entry.merged += 1;
+  entry.latest = entry.latest > pr.pull_request.merged_at ? entry.latest : pr.pull_request.merged_at;
+  byRepo.set(name, entry);
+}
+const openNotable = open.filter(notable);
+const openRepos = new Set(openNotable.map(repo));
 
-const rows = [
-  ...merged.filter(notable).map((pr) => line(pr, `merged ${pr.pull_request.merged_at.slice(0, 10)}`)),
-  ...open.filter(notable).map((pr) => line(pr, 'open')),
-];
-const table = rows.length
-  ? ['| repo | pull request | state |', '| --- | --- | --- |', ...rows].join('\n')
-  : '_None yet._';
+const mergedTotal = [...byRepo.values()].reduce((n, e) => n + e.merged, 0);
+const ranked = [...byRepo.entries()].sort((a, b) => b[1].merged - a[1].merged || b[1].stars - a[1].stars);
+const projects = ranked.map(([name, e]) => `[${name}](https://github.com/${name}/pulls?q=is%3Apr+author%3A${login}+is%3Amerged) (${e.merged})`);
+const pending = [...openRepos].filter((name) => !byRepo.has(name)).map((name) => `[${name}](https://github.com/${name}/pulls?q=is%3Apr+author%3A${login})`);
+
+const parts = [];
+if (mergedTotal) parts.push(`${mergedTotal} pull request${mergedTotal === 1 ? '' : 's'} merged into ${projects.join(', ')}.`);
+if (openNotable.length) parts.push(`${openNotable.length} open${pending.length ? `, including first contributions to ${pending.join(', ')}` : ''}.`);
+const table = parts.length ? parts.join(' ') : '_Nothing yet._';
 
 const readme = readFileSync('README.md', 'utf8');
 const next = readme.replace(/<!-- upstream:start -->[\s\S]*<!-- upstream:end -->/, `<!-- upstream:start -->\n${table}\n<!-- upstream:end -->`);
