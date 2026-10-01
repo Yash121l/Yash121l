@@ -25,7 +25,15 @@ for (const name of new Set([...merged, ...open].map(repo))) {
   });
   stars.set(name, res.ok ? (await res.json()).stargazers_count : 0);
 }
-const notable = (pr) => stars.get(repo(pr)) >= 100;
+// A small repo still counts when it belongs to a larger project, such as perses/shared under perses.
+const ownerStars = new Map();
+for (const owner of new Set([...stars.keys()].map((name) => name.split('/')[0]))) {
+  const res = await fetch(`https://api.github.com/search/repositories?q=${encodeURIComponent(`user:${owner}`)}&sort=stars&per_page=1`, {
+    headers: { authorization: `Bearer ${token}`, accept: 'application/vnd.github+json' },
+  });
+  ownerStars.set(owner, res.ok ? ((await res.json()).items[0]?.stargazers_count ?? 0) : 0);
+}
+const notable = (pr) => Math.max(stars.get(repo(pr)), ownerStars.get(repo(pr).split('/')[0])) >= 100;
 const byRepo = new Map();
 for (const pr of merged.filter(notable)) {
   const name = repo(pr);
