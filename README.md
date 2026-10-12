@@ -16,7 +16,7 @@ I built it after two days of picking issues by hand: of twelve candidates, three
 
 ## Upstream
 
-Pull requests to projects I use, counted daily. Most of the current work is in CNCF and OpenJS Foundation projects: container registries, cluster storage, workload identity, observability, and the Node and browser tooling I use every day.
+Pull requests to projects I use, counted daily. Most of the current work is in CNCF and OpenJS Foundation projects: the Dapr runtime, container registries, cluster storage, workload identity, Perses dashboards, and the Node and browser tooling I use every day.
 
 Not every issue is best answered with a patch. Several of these threads ended with a root cause instead, including bugs that turned out to be fixed upstream already, a reported missing feature that was really an instance metadata hop limit, and a cache leak whose stated cause was the wrong function. I also answer questions in project discussions when the answer is sitting in the source.
 
@@ -27,6 +27,8 @@ Not every issue is best answered with a patch. Several of these threads ended wi
 ## Projects
 
 - **[PortHole](https://github.com/Yash121l/PortHole)**. macOS menu bar app: every listening port, which process owns it, kill it in one click. Swift and SwiftUI.
+- **[BrainMCP](https://github.com/Yash121l/BrainMCP)**. My notes, decisions and coding rules served as an MCP server from a Cloudflare Worker, so every machine and client starts a session with the same context. Git holds the notes; D1 is a rebuildable index with full-text search over them.
+- **[forge-harness](https://github.com/Yash121l/forge-harness)**. Takes an issue and a repo, returns a patch with execution evidence. A run only counts as done when the verification command passes again against the final patch. Python, no runtime dependencies.
 - **[Railly](https://github.com/Yash121l/railway)**. Live train tracking for Indian Railways with a Live Activity on the lock screen. Swift app plus a Next.js site.
 - **[yardstick](https://github.com/Yash121l/yardstick)**. Local LLM eval harness: which model for which pipeline, at what cost, with which API quirks.
 - **[GhostPilot](https://github.com/Yash121l/GhostPilot)**. Local-first, bring-your-own-key desktop app for AI-assisted social publishing.
