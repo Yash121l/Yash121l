@@ -16,7 +16,7 @@ I built it after two days of picking issues by hand: of twelve candidates, three
 
 ## Upstream
 
-Pull requests to projects I use, counted daily. Most of the current work is in CNCF and OpenJS Foundation projects: the Dapr runtime, container registries, cluster storage, workload identity, Perses dashboards, and the Node and browser tooling I use every day.
+Pull requests to projects I use, counted daily. Most of the current work is in CNCF and OpenJS Foundation projects: the Dapr runtime, container registries, cluster storage, workload identity, Kubernetes security scanning, Perses dashboards, and the Node and browser tooling I use every day.
 
 Not every issue is best answered with a patch. Several of these threads ended with a root cause instead, including bugs that turned out to be fixed upstream already, a reported missing feature that was really an instance metadata hop limit, and a cache leak whose stated cause was the wrong function. I also answer questions in project discussions when the answer is sitting in the source.
 
