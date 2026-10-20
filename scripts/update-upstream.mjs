@@ -5,11 +5,16 @@ const login = 'Yash121l';
 const exclude = ['rtpvc', 'Rishihood-University'];
 
 async function search(q) {
-  const res = await fetch(`https://api.github.com/search/issues?q=${encodeURIComponent(q)}&per_page=50&sort=updated`, {
-    headers: { authorization: `Bearer ${token}`, accept: 'application/vnd.github+json' },
-  });
-  if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
-  return (await res.json()).items;
+  const items = [];
+  for (let page = 1; ; page += 1) {
+    const res = await fetch(`https://api.github.com/search/issues?q=${encodeURIComponent(q)}&per_page=100&page=${page}`, {
+      headers: { authorization: `Bearer ${token}`, accept: 'application/vnd.github+json' },
+    });
+    if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
+    const body = await res.json();
+    items.push(...body.items);
+    if (items.length >= body.total_count || body.items.length === 0) return items;
+  }
 }
 
 const own = `author:${login} type:pr -user:${login} ${exclude.map((o) => `-org:${o}`).join(' ')}`;
